@@ -26,7 +26,9 @@ Another difference in Dart and Java is indentation. Dart uses 2-character indent
 
 In Dart, declaration of constructors takes just a line. For exammple a constructor for a Bicycle class is:
 
-`Bicycle(this.var1, this.var2, this.var3 );`
+```dart
+Bicycle(this.var1, this.var2, this.var3 );
+```
 
 Keep in mind:
 1) Constructors with out bodies are valid in Dart.

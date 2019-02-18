@@ -2,7 +2,7 @@
 
 ## Intro to Dart
 
-When you create a dart file and start wirting a program, there is no need to use any access specifiers. Everything is `public` by default. Dart does not support any access specifiers.
+When you create a dart file and start writing a program, there is no need to use any access specifiers. Everything is `public` by default. Dart does not support any access specifiers.
 
 The main function is really simple.
 In java:
@@ -23,14 +23,14 @@ Or if you need command line arguments:
 void main(List<String> args)
 ```
 
-It pretty clear from these examples that the syntax of Dart is way more simple and compact than in Java.
+It is pretty clear from these examples that the syntax of Dart is way more simple and compact than in Java.
 In Dart, code can be defined inside, as well as outside the classes.
 
 Another difference in Dart and Java is indentation. Dart uses 2-character indentation, instead of 4.
 
 ## Constructors in Dart
 
-In Dart, declaration of constructors takes just a line. For exammple a constructor for a Bicycle class is:
+In Dart, declaration of constructors takes just a line. For example a constructor for a Bicycle class is:
 
 ```dart
 Bicycle(this.var1, this.var2, this.var3 );
@@ -38,8 +38,8 @@ Bicycle(this.var1, this.var2, this.var3 );
 
 Keep in mind:
 1) Constructors with out bodies are valid in Dart.
-2) A semicolin(;) at the end of the constructor is really important.
-3) Using `this` in the construcotr is a shortcut. The constructor mentioned above is equivalent to:
+2) A semicolon(;) at the end of the constructor is really important.
+3) Using `this` in the constructor is a shortcut. The constructor mentioned above is equivalent to:
 
 ```dart
 Bicycle(int var1, int var2, int var3) {

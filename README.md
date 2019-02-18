@@ -34,9 +34,13 @@ Keep in mind:
 3) Using `this` in the construcotr is a shortcut. The constructor mentioned above is equivalent to:
 
 `Bicycle(int var1, int var2, int var3) {
+
   this.var1 = var1;
+  
   this.var2 = var2;
+  
   this.var3 = var3;
+  
 }`
 
 In the main function, you can directly assign the values to a variable as well as call the constructor at the same time. Following are two examples which show how to print the data stored in a variable:
@@ -44,6 +48,7 @@ In the main function, you can directly assign the values to a variable as well a
 ### Example 1:
 
 `var bike = new Bicycle(3,6,7)
+
 print(bike);`
 
 Output:

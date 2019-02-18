@@ -1,6 +1,6 @@
 # Dart
 
-##Intro to Dart
+## Intro to Dart
 
 When you create a dart file and start wirting a program, there is no need to use any access specifiers. Everything is `public` by default. Dart does not support any access specifiers.
 
@@ -16,7 +16,7 @@ In Dart, code can be defined inside, as well as outside the classes.
 
 Another difference in Dart and Java is indentation. Dart uses 2-character indentation, instead of 4.
 
-##Constructors in Dart
+## Constructors in Dart
 
 In Dart, declaration of constructors takes just a line. For exammple a constructor for a Bicycle class is:
 `Bicycle(this.var1, this.var2, this.var3 );`
@@ -32,7 +32,7 @@ Keep in mind:
 
 In the main function, you can directly assign the values to a variable as well as call the constructor at the same time. Following are two examples which show how to print the data stored in a variable:
 
-###Example 1:
+### Example 1:
 
 `var bike = new Bicycle(3,6,7)
 print(bike);`
@@ -40,7 +40,7 @@ print(bike);`
 Output:
 `Instance of 'Bicycle'`
 
-###Example 2:
+### Example 2:
 
 Now we will use toString() function to give us the value stored in bike.
 In the class, override toString() to get the output.

@@ -45,7 +45,7 @@ Keep in mind:
 Bicycle(int var1, int var2, int var3) {
 this.var1 = var1;
 this.var2 = var2;
-this.var3 = var3; 
+this.var3 = var3;
 }
 ```
 
@@ -87,3 +87,8 @@ If you want to print more than one variable:
 String toString() => 'Bicycle: $var2 kmph $var1 $var3'
 ```
 You can find the entire program which demonstrates these concepts [here](https://github.com/yashk2000/Dart/blob/master/Bicycle.dart)
+
+## Read only Variables, Getters and Setters in dart
+
+You can make a variable read only in Dart by adding an underscore before a variable.
+[Here]() is a basic program which will explin getter.

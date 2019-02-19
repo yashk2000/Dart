@@ -102,6 +102,8 @@ int num = 5;
 
 A simple program to explain the variables above can be found [here](https://github.com/yashk2000/Dart/blob/master/variables.dart).
 
+Uninitailized variables have `null` value stored in them by default. This so as in dart, everything including numbers is an object.
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

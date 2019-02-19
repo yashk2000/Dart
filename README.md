@@ -88,6 +88,20 @@ String toString() => 'Bicycle: $var2 kmph $var1 $var3'
 ```
 You can find the entire program which demonstrates these concepts [here](https://github.com/yashk2000/Dart/blob/master/Bicycle.dart)
 
+## Variables in Dart
+
+In dart, variables can be declared simply using the keyword `var`. If you have to declare a variable which is not restricted to a single type, it can be declared as `dynamic`. For example:
+
+```dart
+var name = 'cnfb';
+var name2 = "doho"; // in dart strings can be declared within single as well as double quotes.
+dynamic name3 = 'efr';
+String name4 = 'djjf';
+int num = 5;
+```
+
+A simple program to explain the variables above can be found [here]().
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

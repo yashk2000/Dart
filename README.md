@@ -116,6 +116,21 @@ const z = [];//cannot be updated
 
 A program to demonstrate this is [here](https://github.com/yashk2000/Dart/blob/master/variables2.dart).
 
+
+### Data types in dart
+
+There are the following data types in dart:
+- numbers
+- strings
+- booleans
+- lists/arrays
+- maps
+- runes
+- symbols
+
+#### Numbers
+There are two types of numbers in dart, `int` and `double`. 
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

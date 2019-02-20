@@ -114,7 +114,7 @@ var y = const [];//value of y = [a,b,c...] can be updated later on
 const z = [];//cannot be updated
 ```
 
-A program to demnostrate this is [here])().
+A program to demonstrate this is [here])().
 
 ## Read only Variables, Getters and Setters in dart
 

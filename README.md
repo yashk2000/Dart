@@ -129,7 +129,8 @@ There are the following data types in dart:
 - symbols
 
 #### Numbers
-There are two types of numbers in dart, `int` and `double`. 
+There are two types of numbers in dart, `int` and `double`.
+The range of `int` is -2^63 to 2^63 - 1. `double` is used to store floating point decimal numbers of upto 64 bit precision.
 
 ## Read only Variables, Getters and Setters in dart
 

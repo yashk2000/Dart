@@ -104,6 +104,18 @@ A simple program to explain the variables above can be found [here](https://gith
 
 Uninitailized variables have `null` value stored in them by default. This so as in dart, everything including numbers is an object.
 
+Variables can also be declared as `final` or `const`(constant). If a variable is declared as `final`, it's value cannot be changed throughout the execution of the program. A variable delared as `const`, it is a compile time constant. `const` variables are implicitly `final`. Both of these types have to be initialized while they are being declared.
+
+Difference between final and const:
+
+The value of a non-final, non-const variable can be changed even if it has a constant value.
+```dart
+var y = const [];//value of y = [a,b,c...] can be updated later on
+const z = [];//cannot be updated
+```
+
+A program to demnostrate this is [here])().
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

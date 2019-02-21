@@ -155,7 +155,7 @@ String fixedPoints = 2.3463476.toStringAsFixed(3);
 ```
 View [this](https://github.com/yashk2000/Dart/blob/master/numbers.dart) program to see how numbers can be used in dart.
 
-Basic operations such as `+,-,*,/` all can be performed on numbers. Bitwise operators can also be used. For more features, the dart math library has several built in functions.
+Basic operations such as `+,-,*,/` all can be performed on numbers. Bitwise operators can also be used. For more features, the dart [math](https://api.dartlang.org/stable/2.1.1/dart-math/dart-math-library.html) library has several built in functions.
 
 ## Read only Variables, Getters and Setters in dart
 

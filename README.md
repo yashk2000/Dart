@@ -131,6 +131,30 @@ There are the following data types in dart:
 #### Numbers
 There are two types of numbers in dart, `int` and `double`.
 The range of `int` is -2^63 to 2^63 - 1. `double` is used to store floating point decimal numbers of upto 64 bit precision.
+Some other are properties are storing nubers as hexadecimal format, or exponents etc.
+```dart
+var num = 0xABCD45;
+var exp = 34e2;
+```
+Numbes and strings can be interconverted whenever needed. For this `parse` and `toString()` methods are used.
+For converting string to integer:
+```dart
+var number = int.parse(`34`);
+```
+
+For converting string to double:
+```dart
+var floating = double.parse(`23.4`);
+```
+
+For converting numbers to string:
+```dart
+String one = 1.toString();
+String decimal = 45.676.toString();
+String fixedPoints = 2.3463476.toStringAsFixed(3);
+```
+View [this]() program to see how numbers can be used in dart.
+Basic operations such as `+,-,*,/` all can be performed on numbers. Bitwise operators can also be used. For more features, the dart math library has several built in functions.
 
 ## Read only Variables, Getters and Setters in dart
 

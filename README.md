@@ -136,7 +136,7 @@ Some other are properties are storing nubers as hexadecimal format, or exponents
 var num = 0xABCD45;
 var exp = 34e2;
 ```
-Numbes and strings can be interconverted whenever needed. For this `parse` and `toString()` methods are used.
+Numbes and strings can be inter-converted whenever needed. For this `parse` and `toString()` methods are used.
 For converting string to integer:
 ```dart
 var number = int.parse(`34`);

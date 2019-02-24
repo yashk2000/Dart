@@ -136,7 +136,7 @@ Some other are properties are storing nubers as hexadecimal format, or exponents
 var num = 0xABCD45;
 var exp = 34e2;
 ```
-Numbes and strings can be interconverted whenever needed. For this `parse` and `toString()` methods are used.
+Numbes and strings can be inter-converted whenever needed. For this `parse` and `toString()` methods are used.
 For converting string to integer:
 ```dart
 var number = int.parse(`34`);
@@ -153,8 +153,9 @@ String one = 1.toString();
 String decimal = 45.676.toString();
 String fixedPoints = 2.3463476.toStringAsFixed(3);
 ```
-View [this]() program to see how numbers can be used in dart.
-Basic operations such as `+,-,*,/` all can be performed on numbers. Bitwise operators can also be used. For more features, the dart math library has several built in functions.
+View [this](https://github.com/yashk2000/Dart/blob/master/numbers.dart) program to see how numbers can be used in dart.
+
+Basic operations such as `+,-,*,/` all can be performed on numbers. Bitwise operators can also be used. For more features, the dart [math](https://api.dartlang.org/stable/2.1.1/dart-math/dart-math-library.html) library has several built in functions.
 
 #### Strings
 

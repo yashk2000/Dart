@@ -156,6 +156,45 @@ String fixedPoints = 2.3463476.toStringAsFixed(3);
 View [this]() program to see how numbers can be used in dart.
 Basic operations such as `+,-,*,/` all can be performed on numbers. Bitwise operators can also be used. For more features, the dart math library has several built in functions.
 
+#### Strings
+
+A string is a collection of UTF-16 code units which can be declared either inside single or double quotes.
+
+To use a single quote inside a sttring in ''. you need to do `\'`.
+
+```dart
+var s1 = 'I\`m human'`;
+```
+
+You can put the value of an expression inside a string by using ${expression}. If the expression is an identifier, you can skip the {}.
+```dart
+var s1 = 'Dart';
+print("$s1 rocks!!");//Dart rocks!!
+```
+A raw string can be created using `r'`. A raw string is one in which everything is printed as it was entered. Even escape characters are not recognized in it.
+```dart
+var s = r'In a raw string, not even \n gets special treatment.';//In a raw string, not even \n gets special treatment.
+```
+
+[Here]() is program to check out these things.
+Using `const` with strings:
+
+```dart
+// These work in a const string.
+const aConstNum = 0;
+const aConstBool = true;
+const aConstString = 'a constant string';
+
+// These do NOT work in a const string.
+var aNum = 0;
+var aBool = true;
+var aString = 'a string';
+const aConstList = [1, 2, 3];
+
+const validConstString = '$aConstNum $aConstBool $aConstString';
+// const invalidConstString = '$aNum $aBool $aString $aConstList';
+```
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

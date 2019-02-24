@@ -197,6 +197,17 @@ const validConstString = '$aConstNum $aConstBool $aConstString';
 // const invalidConstString = '$aNum $aBool $aString $aConstList';
 ```
 
+#### Boolean
+
+To represent boolean values, `bool` is used. A `bool` type can store only `true` or `false`.
+
+```dart
+var t = true;
+print(t);//true
+bool r = false;
+print(r);//false
+```
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

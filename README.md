@@ -267,6 +267,21 @@ var tmp = map['laugh'];
 
 Run [this]() program to see the properties of maps.
 
+#### Runes
+
+Runes are the UTF-32 code points of a string. To define runes using a 4 digit hexdecimal number , do `\uXXXX`, where XXXX is the 4 digi thexadecimal number. In order to represent runes using less than or more than a 4 dgit hexadecimal number, do `\u{......}`.
+
+The String class has several properties you can use to extract rune information. The `codeUnitAt` and `codeUnit` properties return 16-bit code units. Use the runes property to get the runes of a string.
+
+Check out [this]() program to see runes in action.
+The output of the above program will be :
+```
+👏
+[55357, 56399]
+[128079]
+♥  😅  😎  👻  🖖  👍
+```
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

@@ -233,6 +233,40 @@ var sublist = [[1, 2, 3], [4, 5], [5, 6, 7, 8]];
 ```
 A program to demonstrate the lists concepts is [here](https://github.com/yashk2000/Dart/blob/master/lists.dart).
 
+#### Maps
+
+A map is a collection of key-value pairs. The key and value can be any type of objects. The key can occur only once, but the value can be repeated multiple number of times.
+```dart
+var map = {
+//key:  value
+  1:      'first',
+  2:      'second'  
+};
+
+var mapdiff = {
+  'one':   'first',
+  'two':   'second'
+};
+```
+
+These values and keys in a map can also be created using a map constructor.
+```dart
+var map = Map();//using new is optional in Dart2
+map[1] = ['one'];
+```
+
+Values from a map can be accessed by:
+```dart
+var map = {
+  'laugh':  'hahaha'
+};
+var tmp = map['laugh'];
+```
+
+`map.length` gives the number of key value pairs in a map.
+
+Run [this]() program to see the properties of maps.
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

@@ -208,6 +208,31 @@ bool r = false;
 print(r);//false
 ```
 
+#### Lists
+
+Lists are the equivalent of arrays in Dart. Lists can be simply declared by :
+```dart
+var list = [1, 2, 3];
+```
+
+Lists can contain multiple data types. But if a list contains multiple data types, only printing can be done, no operations can be done.
+```dart
+var f = ["a", 5, 6];
+print(f[0]);
+var tmp = f[1] + f[2];//error
+print(f[2]);//will print 6
+```
+
+To find the length of a list, simply do `list.length`. Compile time constatnt lists can be declared by doing:
+```dart
+var list = const [1, 2, 3];
+```
+A list can also be declared insdie a list.
+```dart
+var sublist = [[1, 2, 3], [4, 5], [5, 6, 7, 8]];
+```
+A program to demonstrate the lists concepts is [here]().
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

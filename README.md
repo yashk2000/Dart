@@ -120,13 +120,13 @@ A program to demonstrate this is [here](https://github.com/yashk2000/Dart/blob/m
 ### Data types in dart
 
 There are the following data types in dart:
-- numbers
-- strings
-- booleans
-- lists/arrays
-- maps
-- runes
-- symbols
+- [numbers]()
+- [strings]()
+- [booleans]()
+- [lists/arrays]()
+- [maps]()
+- [runes]()
+- [symbols]()
 
 #### Numbers
 There are two types of numbers in dart, `int` and `double`.

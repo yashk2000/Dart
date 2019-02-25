@@ -282,6 +282,17 @@ The output of the above program will be :
 ♥  😅  😎  👻  🖖  👍
 ```
 
+#### Symbols
+
+Symbols are rarely used objects in Dart which represent an operator or identifier. they’re invaluable for APIs that refer to identifiers by name, because minification changes identifier names but not identifier symbols. Symbols are compile time constamts..
+
+To get the symbol for an identifier, use a symbol literal, which is just # followed by the identifier:
+```
+#radix
+#bar
+```
+
+
 ## Read only Variables, Getters and Setters in dart
 
 You can make a variable read only in Dart by adding an underscore before a variable.

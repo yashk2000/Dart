@@ -102,7 +102,7 @@ int num = 5;
 
 A simple program to explain the variables above can be found [here](https://github.com/yashk2000/Dart/blob/master/variables.dart).
 
-Uninitailized variables have `null` value stored in them by default. This so as in dart, everything including numbers is an object.
+Uninitailized variables have `null` value stored in them by default. This so as in dart, everything, including numbers, is an object.
 
 Variables can also be declared as `final` or `const`(constant). If a variable is declared as `final`, it's value cannot be changed throughout the execution of the program. A variable delared as `const`, it is a compile time constant. `const` variables are implicitly `final`. Both of these types have to be initialized while they are being declared.
 

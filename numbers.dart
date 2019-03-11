@@ -6,7 +6,7 @@ void main() {
   int j = 56;
   String g = j.toString();
   print(g);
-  g = 3.14567.toStringAsFixed(2);
+  g = 3.14567.toStringAsFixed(2);// only till 2 dp
   print(g);
   String dec = '34';
   String float = '56.8';

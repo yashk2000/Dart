@@ -12,6 +12,6 @@ class Bicycle {
 
 void main() {
   Bicycle cycle = new Bicycle(2, 1);
-  print(cycle.speed);//prints 0
-  //cycle.speed = 44; This will not work as there is no setter.
+  print(cycle.speed);// prints 0
+  cycle.speed = 44;// This will not work as there is no setter.
 }

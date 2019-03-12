@@ -37,7 +37,7 @@ Bicycle(this.var1, this.var2, this.var3 );
 ```
 
 Keep in mind:
-1) Constructors with out bodies are valid in Dart.
+1) Constructors without bodies are valid in Dart.
 2) A semicolon(;) at the end of the constructor is really important.
 3) Using `this` in the constructor is a shortcut. The constructor mentioned above is equivalent to:
 
@@ -102,9 +102,9 @@ int num = 5;
 
 A simple program to explain the variables above can be found [here](https://github.com/yashk2000/Dart/blob/master/variables.dart).
 
-Uninitailized variables have `null` value stored in them by default. This so as in dart, everything, including numbers, is an object.
+Uninitialized variables have `null` value stored in them by default. This so as in dart, everything including numbers is an object.
 
-Variables can also be declared as `final` or `const`(constant). If a variable is declared as `final`, it's value cannot be changed throughout the execution of the program. A variable delared as `const`, it is a compile time constant. `const` variables are implicitly `final`. Both of these types have to be initialized while they are being declared.
+Variables can also be declared as `final` or `const`(constant). If a variable is declared as `final`, it's value cannot be changed throughout the execution of the program. A variable declared as `const`, it is a compile time constant. `const` variables are implicitly `final`. Both of these types have to be initialized while they are being declared.
 
 Difference between final and const:
 
@@ -131,12 +131,12 @@ There are the following data types in dart:
 #### Numbers
 There are two types of numbers in dart, `int` and `double`.
 The range of `int` is -2^63 to 2^63 - 1. `double` is used to store floating point decimal numbers of upto 64 bit precision.
-Some other are properties are storing nubers as hexadecimal format, or exponents etc.
+Some other are properties are storing numbers as hexadecimal format, or exponents etc.
 ```dart
 var num = 0xABCD45;
 var exp = 34e2;
 ```
-Numbes and strings can be inter-converted whenever needed. For this `parse` and `toString()` methods are used.
+Numbers and strings can be inter-converted whenever needed. For this `parse` and `toString()` methods are used.
 For converting string to integer:
 ```dart
 var number = int.parse(`34`);

@@ -1,5 +1,5 @@
 void main() {
-  var clapping = '\u{1f44f}';
+  var clapping = '\u{1f44f}';\\ \u helps in identifying runes
   print(clapping);
   print(clapping.codeUnits);
   print(clapping.runes.toList());

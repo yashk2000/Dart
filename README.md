@@ -54,7 +54,7 @@ In the main function, you can directly assign the values to a variable as well a
 ### Example 1:
 
 ```dart
-var bike = new Bicycle(3,6,7)
+var bike = new Bicycle(3,10,7)
 print(bike);
 ```
 
@@ -76,7 +76,7 @@ Then write the same main method as above.
 
 Output:
 
-`6 kmph`
+`10 kmph`
 
 If you do `$var1` instead of `$var2`, you will get `3 kmph` as output.
 

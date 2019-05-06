@@ -271,7 +271,7 @@ Run [this](https://github.com/yashk2000/Dart/blob/master/maps.dart) program to s
 
 Runes are the UTF-32 code points of a string. To define runes using a 4 digit hexdecimal number , do `\uXXXX`, where XXXX is the 4 digi thexadecimal number. In order to represent runes using less than or more than a 4 dgit hexadecimal number, do `\u{......}`.
 
-The String class has several properties you can use to extract rune information. The `codeUnitAt` and `codeUnit` properties return 16-bit code units. Use the runes property to get the runes of a string.
+The String class has several properties you can use to extract rune information. The `codeUnitAt` and `codeUnit` properties return 16-bit code units. Use the runes property to  get the runes of a string.
 
 Check out [this](https://github.com/yashk2000/Dart/blob/master/runes.dart) program to see runes in action.
 The output of the above program will be :

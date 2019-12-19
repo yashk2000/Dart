@@ -1,12 +1,12 @@
 void main() {
-  var hex = 0xDEADBEEF; // 3735928559
+  var hex = 0xDEADBEEF;
   print(hex);
   var exp = 1.42e5;
   print(exp);
   int j = 56;
   String g = j.toString();
   print(g);
-  g = 3.14567.toStringAsFixed(2);// only till 2 dp
+  g = 3.14567.toStringAsFixed(2);
   print(g);
   String dec = '34';
   String float = '56.8';
@@ -15,3 +15,5 @@ void main() {
   print(num1);
   print(num2);
 }
+//Commit number 2 
+//Commit number 3

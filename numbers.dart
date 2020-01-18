@@ -14,6 +14,7 @@ void main() {
   double num2 = double.parse(float);
   print(num1);
   print(num2);
+  print(num1+num2);
 }
 //Commit number 2 
 //Commit number 3

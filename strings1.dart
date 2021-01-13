@@ -12,6 +12,8 @@ void main() {
   print(s6);
   print("$dart rocks!!!");
   var s7 = 'The result of a string*n is equivalent to string + string + ...(n times) i.e  : ';
-   print (s7 + " Dart is fun  " *3);
+  var s8 = '  DART IS FUN  ';
+  print (s7 + s8 *4);
+
 }
 

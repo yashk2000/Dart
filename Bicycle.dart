@@ -6,10 +6,10 @@ class Bicycle {
   Bicycle(this.cadence, this.speed, this.gear);
 
  @override
- String toString() => 'Bicycle: $speed mph';
+ String toString() => 'Bicycle: $speed kmph';
 }
 
 void main() {
-  var bike = Bicycle(2, 0, 1);
+  var bike = Bicycle(3, 8, 7);
   print(bike);
 }

@@ -11,4 +11,5 @@ void main() {
   print(sublist.length);//2
   print(list.length);//3
   print(sublist[0].length);//3
+  print(sublist[f[1]-4]);//[1,2]
 }

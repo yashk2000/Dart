@@ -12,4 +12,8 @@ class Bicycle {
 void main() {
   var bike = Bicycle(3, 8, 7);
   print(bike);
+  //print bike vars
+  print(bike.cadence);
+  print(bike.speed);
+  print(bike.gear);
 }

@@ -11,7 +11,7 @@ In java:
 public static void main(String[]args)
 ```
 
-In Dart:https://github.com/theamankumarsingh/appinventor-sources.git
+In Dart:
 
 ```dart
 void main()
